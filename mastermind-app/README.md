@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# MasterMind
 
+##
+This is a single page react app based on the old board game done as a learning exercise
+Inital app is single player, the secret chose at game start, then gueses are marked until the secrete is known
+###
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

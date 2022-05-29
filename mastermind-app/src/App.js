@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Pegs from './peg/Pegs';
 
 function App() {
+  const fills = ["#ff0000","#0000ff","#008000","#ffff00"];
+  const complete = false;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" width="auto" >
+      <div class="divTable">
+        <div class="divTableBody">
+          <Pegs className="Pegs" complete={complete} colours={fills}/>
+        </div>
+      </div>
     </div>
   );
 }
